@@ -13,6 +13,7 @@ plusIcons.forEach((icon) => {
 minusIcons.forEach((icon) => {
   icon.addEventListener("click", (e) => {
     showOrHideAccordion(icon, "plus-icon");
+    activeAccordionIndex = null;
   });
 });
 
